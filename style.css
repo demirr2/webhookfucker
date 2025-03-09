@@ -1,4 +1,4 @@
-
+/* Reset styles for a clean slate */
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +6,10 @@
     font-family: 'Arial', sans-serif;
 }
 
-
+/* Body and background */
 body {
-    background-color: #000000; 
-    color: #FF4D4D; 
+    background-color: #000000; /* Siyah arka plan */
+    color: #FF4D4D; /* Kırmızı metin */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,44 +18,44 @@ body {
     font-size: 16px;
 }
 
-
+/* Header Styling */
 #header {
     position: absolute;
     top: 10px;
     width: 100%;
     text-align: center;
     font-size: 36px;
-    color: #FF4D4D; 
+    color: #FF4D4D; /* Kırmızı başlık rengi */
     font-weight: bold;
     text-transform: uppercase;
 }
 
-
+/* Container styling */
 #container {
-    background-color: #1C1C1C;
+    background-color: #1C1C1C; /* Koyu gri arka plan */
     padding: 20px;
-    border-radius: 12px; 
-    box-shadow: 0 0 15px rgba(255, 77, 77, 0.8); 
+    border-radius: 12px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.8); /* Kırmızı gölge */
     width: 100%;
     max-width: 500px;
     text-align: center;
 }
 
-
+/* Labels */
 .label {
     margin-top: 10px;
     font-size: 18px;
-    color: #FF4D4D;
+    color: #FF4D4D; /* Kırmızı metin */
 }
 
-
+/* Input fields */
 .input-field {
     width: 100%;
     padding: 12px;
     margin-top: 10px;
-    border: 2px solid #FF4D4D; 
-    background-color: #333333; 
-    color: #FF4D4D; 
+    border: 2px solid #FF4D4D; /* Kırmızı kenarlık */
+    background-color: #333333; /* Koyu arka plan */
+    color: #FF4D4D; /* Kırmızı metin */
     border-radius: 8px;
     font-size: 16px;
 }
@@ -65,7 +65,7 @@ body {
     width: 60%;
     padding: 15px;
     margin-top: 20px;
-    background-color: #FF4D4D; 
+    background-color: #FF4D4D; /* Kırmızı buton */
     color: white;
     border: none;
     border-radius: 8px;
@@ -75,14 +75,14 @@ body {
 }
 
 .btn:hover {
-    background-color: #FF0000; 
+    background-color: #FF0000; /* Buton hoverda daha koyu kırmızı */
 }
 
-
+/* Log area */
 #log {
     margin-top: 15px;
     font-size: 14px;
-    color: #FF0000; 
+    color: #FF0000; /* Kırmızı log metni */
 }
 
 /* Footer */
