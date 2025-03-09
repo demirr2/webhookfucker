@@ -1,0 +1,48 @@
+<!--
+  Project by Zua 
+  https://github.com/thatziv/webhook
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebhookFucker</title>
+    <meta name="author" content="Zua">
+    <meta name="description" content="Simple Webhook Sender">
+    <meta name="keywords" content="webhook, red, black, minimal">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+
+    <!-- Başlık kısmı -->
+    <div id="header">
+      <h1>WebhookFucker</h1> <!-- Başlık burada yer alıyor -->
+    </div>
+
+    <div id="container">
+      <div class="content">
+        <p class="label">Webhook Link:</p>
+        <input type="text" id="link" class="input-field">
+        
+        <p class="label">Bot Username:</p>
+        <input type="text" id="username" value="" class="input-field">
+
+        <p class="label">Content:</p>
+        <input type="text" id="content" class="input-field">
+        
+        <button id="btn" class="btn">Send</button>
+
+        <div id="log"></div>
+      </div>
+    </div>
+
+    <div id="footer">
+      
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
