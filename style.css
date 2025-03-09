@@ -1,48 +1,107 @@
-<!--
-  Project by Zua 
-  https://github.com/thatziv/webhook
--->
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WebhookFucker</title>
-    <meta name="author" content="Zua">
-    <meta name="description" content="Simple Webhook Sender">
-    <meta name="keywords" content="webhook, red, black, minimal">
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  </head>
-  <body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
 
-    <!-- Başlık kısmı -->
-    <div id="header">
-      <h1>WebhookFucker</h1> <!-- Başlık burada yer alıyor -->
-    </div>
 
-    <div id="container">
-      <div class="content">
-        <p class="label">Webhook Link:</p>
-        <input type="text" id="link" class="input-field">
-        
-        <p class="label">Bot Username:</p>
-        <input type="text" id="username" value="" class="input-field">
+body {
+    background-color: #000000; 
+    color: #FF4D4D; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 16px;
+}
 
-        <p class="label">Content:</p>
-        <input type="text" id="content" class="input-field">
-        
-        <button id="btn" class="btn">Send</button>
 
-        <div id="log"></div>
-      </div>
-    </div>
+#header {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #FF4D4D; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
-    <div id="footer">
-      
-    </div>
 
-    <script src="jquery.js"></script>
-    <script src="main.js"></script>
-  </body>
-</html>
+#container {
+    background-color: #1C1C1C;
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.8); 
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+.label {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FF4D4D;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #FF4D4D; 
+    background-color: #333333; 
+    color: #FF4D4D; 
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Button */
+.btn {
+    width: 60%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #FF4D4D; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FF0000; 
+}
+
+
+#log {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #FF0000; 
+}
+
+/* Footer */
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1C1C1C;
+    color: #FF4D4D;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-link {
+    color: #FF4D4D;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
