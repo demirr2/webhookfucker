@@ -1,4 +1,4 @@
-/* Reset styles for a clean slate */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +6,10 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Body and background */
+
 body {
-    background-color: #000000; /* Siyah arka plan */
-    color: #FF4D4D; /* Kırmızı metin */
+    background-color: #000000; 
+    color: #FF4D4D; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,54 +18,54 @@ body {
     font-size: 16px;
 }
 
-/* Header Styling */
+
 #header {
     position: absolute;
     top: 10px;
     width: 100%;
     text-align: center;
     font-size: 36px;
-    color: #FF4D4D; /* Kırmızı başlık rengi */
+    color: #FF4D4D; 
     font-weight: bold;
     text-transform: uppercase;
 }
 
-/* Container styling */
+
 #container {
-    background-color: #1C1C1C; /* Koyu gri arka plan */
+    background-color: #1C1C1C; 
     padding: 20px;
-    border-radius: 12px; /* Yuvarlatılmış köşeler */
-    box-shadow: 0 0 15px rgba(255, 77, 77, 0.8); /* Kırmızı gölge */
+    border-radius: 12px; 
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.8); 
     width: 100%;
     max-width: 500px;
     text-align: center;
 }
 
-/* Labels */
+
 .label {
     margin-top: 10px;
     font-size: 18px;
-    color: #FF4D4D; /* Kırmızı metin */
+    color: #FF4D4D; 
 }
 
-/* Input fields */
+
 .input-field {
     width: 100%;
     padding: 12px;
     margin-top: 10px;
-    border: 2px solid #FF4D4D; /* Kırmızı kenarlık */
-    background-color: #333333; /* Koyu arka plan */
-    color: #FF4D4D; /* Kırmızı metin */
+    border: 2px solid #FF4D4D; 
+    background-color: #333333; 
+    color: #FF4D4D; 
     border-radius: 8px;
     font-size: 16px;
 }
 
-/* Button */
+
 .btn {
     width: 60%;
     padding: 15px;
     margin-top: 20px;
-    background-color: #FF4D4D; /* Kırmızı buton */
+    background-color: #FF4D4D; 
     color: white;
     border: none;
     border-radius: 8px;
@@ -75,17 +75,16 @@ body {
 }
 
 .btn:hover {
-    background-color: #FF0000; /* Buton hoverda daha koyu kırmızı */
-}
+    background-color: #FF0000; 
 
-/* Log area */
+
 #log {
     margin-top: 15px;
     font-size: 14px;
-    color: #FF0000; /* Kırmızı log metni */
+    color: #FF0000; 
 }
 
-/* Footer */
+
 #footer {
     position: fixed;
     bottom: 0;
